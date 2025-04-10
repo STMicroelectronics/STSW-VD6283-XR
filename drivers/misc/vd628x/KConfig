@@ -1,5 +1,5 @@
 config VD628x
-	tristate " STMicroelectronics VD6283 flicker detection"
+	tristate "STMicroelectronics VD6283 flicker detection"
 	depends on SPI_MASTER
 
 	help
